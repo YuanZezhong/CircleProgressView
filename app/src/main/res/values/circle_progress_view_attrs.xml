@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleProgressView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="progress_colors" format="reference" />
+        <attr name="content_background" format="color" />
+        <attr name="content_type">
+            <enum name="text" value="0" />
+            <enum name="bitmap" value="1" />
+            <enum name="drawable" value="2" />
+        </attr>
+        <attr name="content_text" format="string" />
+        <attr name="content_text_color" format="color" />
+        <attr name="content_text_size" format="dimension" />
+        <attr name="content_bitmap" format="reference" />
+        <attr name="content_drawable" format="reference" />
+        <attr name="max_progress" format="integer" />
+        <attr name="progress" format="integer" />
+    </declare-styleable>
+</resources>
